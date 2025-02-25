@@ -1,8 +1,19 @@
-# React + Vite
+# 🧮 Build a Simple Counter with Custom Buttons
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 Objective
+Create a **Counter Component** that allows users to **increment, decrement, and reset** the count.
 
-Currently, two official plugins are available:
+## 📌 Requirements
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1️⃣ **Create a Counter Component**
+- Uses the **`useState`** hook to store the **count value**.
+- Accepts a prop **`initialCount`** to set the starting value of the counter.
+- Implements buttons to:
+    - 🔼 **Increase count** by `1`.
+    - 🔽 **Decrease count** by `1`.
+    - 🔄 **Reset count** to `0`.
+
+### 2️⃣ **Use Tailwind CSS**
+- Style the component using **Tailwind CSS** for a clean and modern UI.
+
+🚀 **Happy coding!** 🎉
